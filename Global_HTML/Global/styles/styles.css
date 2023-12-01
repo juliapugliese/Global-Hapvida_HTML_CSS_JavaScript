@@ -415,14 +415,14 @@ footer .grupo-footer{
 }
 
 footer .titulo-footer {
-  margin-bottom: 2.9rem;
+  margin-bottom: 2.3rem;
   text-align: left;
   font-size: 1.7rem;
   font-weight: 600;
   color: #004ca7;
   font-family: Inter, 'Source Sans Pro';
 }
-footer  .paragrafo-footer {
+footer .paragrafo-footer {
   row-gap: 1rem;
   display: flex;
   flex-direction: column;  
@@ -430,6 +430,7 @@ footer  .paragrafo-footer {
   font-size: 1.4rem;
   color: #004ca7;
   font-family: Inter, 'Source Sans Pro';
+  margin-bottom: 4.5rem;
 }
 
 
