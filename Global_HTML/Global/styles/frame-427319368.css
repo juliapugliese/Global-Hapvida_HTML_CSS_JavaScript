@@ -436,7 +436,6 @@ footer  .paragrafo-footer {
 }
 
 
-
 footer .conteudo-ilustrativo-footer {
   display: flex;
   flex-direction: column;
@@ -495,19 +494,66 @@ footer .baixe-nosso-app .app-playstore {
 
 body.dark .main-conteudo{
   background-color: #000000;
-  color: #ffc53e;
 }
+body.dark .main-conteudo .fileira1 .recursos .texto-recursos .titulo1-recursos{
+  color: white;
+}
+body.dark .main-conteudo .fileira1 .recursos .texto-recursos .titulo2-recursos{
+  color: white;
+}
+body.dark .main-conteudo .fileira1 .texto-recursos-alarme .alarme-titulo1{
+  color: white;
+}
+body.dark .main-conteudo .fileira1 .texto-recursos-alarme .alarme-titulo2{
+  color: white;
+}
+body.dark .main-conteudo .titulo2-recursos-contatos {
+  color: white;
+}
+body.dark .main-conteudo .fileira1 .recursos{
+  background-color: #393e45;
+}
+body.dark .main-conteudo .fileira1 .recursos-alarme{
+  background-color: #393e45;
+}
+
+
 body.dark header{
   background-color: #000000;
 }
-body.dark .realizacao{
-  background-color: #242424;
+body.dark header .barra-pesquisa {
+  background-color: #393e45 ;
 }
+body.dark header .barra-pesquisa .links-menu {
+  color: white;
+}
+
+body.dark .realizacao{
+  background-color: #393e45;
+}
+body.dark .realizacao .realizacao-texto{
+  color: white;
+}
+
+
 body.dark .retangulos{
   background-color: #000000;
 }
-body.dark .imagem-fundo{
+
+
+body.dark footer {
+  background-color: #393e45;
 }
+body.dark footer .conteudo-ilustrativo-footer .copyright .copyright-text {
+  color: white;
+}
+body.dark footer .titulo-footer{
+  color: white;
+}
+body.dark footer .paragrafo-footer{
+  color: white;
+}
+
 
 
 @media screen and (max-width: 1400px) {
