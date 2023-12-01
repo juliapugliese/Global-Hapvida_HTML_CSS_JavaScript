@@ -117,6 +117,7 @@ header .botao-detalhes {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  align-items: center;
 }
 
 
@@ -345,10 +346,8 @@ align-items: center;
 
 .emergencia-botao {
   box-sizing: border-box;
-  padding: 1.693rem 2.9rem 1.668rem 4.6rem;
-  width: 23.7rem;
-  height: 8.161rem;
-  position: absolute;
+  padding: 1.6rem 2.5rem 1.6rem 4.3rem;
+  position: fixed;
   left: 0;
   top: 55%;
   display: flex;
@@ -358,17 +357,15 @@ align-items: center;
   border-radius: 0 7.5rem 7.5rem 0;
 }
  .emergencia-botao .ligar-para-emergncia-texto {
-  margin-right: 2rem;
+  margin-right: 1.5rem;
   justify-content: center;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: white;
   font-weight: 600;
   font-family: Poppins, 'Source Sans Pro';
 }
  .emergencia-botao .vetor-botao-emergencia {
-  margin-bottom: 0.2258rem;
-  width: 3.9rem;
-  height: 3.3249rem;
+  width: 3rem;
 }
 
 
@@ -492,68 +489,113 @@ footer .baixe-nosso-app .app-playstore {
 }
 
 
-body.dark .main-conteudo{
+body.theme-dark .main-conteudo{
   background-color: #000000;
 }
-body.dark .main-conteudo .fileira1 .recursos .texto-recursos .titulo1-recursos{
+body.theme-dark .main-conteudo .fileira1 .recursos .texto-recursos .titulo1-recursos{
   color: white;
 }
-body.dark .main-conteudo .fileira1 .recursos .texto-recursos .titulo2-recursos{
+body.theme-dark .main-conteudo .fileira1 .recursos .texto-recursos .titulo2-recursos{
   color: white;
 }
-body.dark .main-conteudo .fileira1 .texto-recursos-alarme .alarme-titulo1{
+body.theme-dark .main-conteudo .fileira1 .texto-recursos-alarme .alarme-titulo1{
   color: white;
 }
-body.dark .main-conteudo .fileira1 .texto-recursos-alarme .alarme-titulo2{
+body.theme-dark .main-conteudo .fileira1 .texto-recursos-alarme .alarme-titulo2{
   color: white;
 }
-body.dark .main-conteudo .titulo2-recursos-contatos {
+body.theme-dark .main-conteudo .titulo2-recursos-contatos {
   color: white;
 }
-body.dark .main-conteudo .fileira1 .recursos{
+body.theme-dark .main-conteudo .fileira1 .recursos{
   background-color: #393e45;
 }
-body.dark .main-conteudo .fileira1 .recursos-alarme{
+body.theme-dark .main-conteudo .fileira1 .recursos-alarme{
   background-color: #393e45;
 }
 
 
-body.dark header{
+body.theme-dark header{
   background-color: #000000;
 }
-body.dark header .barra-pesquisa {
+body.theme-dark header .barra-pesquisa {
   background-color: #393e45 ;
 }
-body.dark header .barra-pesquisa .links-menu {
+body.theme-dark header .barra-pesquisa .links-menu {
   color: white;
 }
+body.theme-dark header .barra-pesquisa .botao-logout {
+  color: white;
+  border: solid 0.4rem white;
+}
 
-body.dark .realizacao{
+body.theme-dark .realizacao{
   background-color: #393e45;
 }
-body.dark .realizacao .realizacao-texto{
+body.theme-dark .realizacao .realizacao-texto{
   color: white;
 }
 
 
-body.dark .retangulos{
+body.theme-dark .retangulos{
   background-color: #000000;
 }
 
 
-body.dark footer {
+body.theme-dark footer {
   background-color: #393e45;
 }
-body.dark footer .conteudo-ilustrativo-footer .copyright .copyright-text {
+body.theme-dark footer .conteudo-ilustrativo-footer .copyright .copyright-text {
   color: white;
 }
-body.dark footer .titulo-footer{
+body.theme-dark footer .titulo-footer{
   color: white;
 }
-body.dark footer .paragrafo-footer{
+body.theme-dark footer .paragrafo-footer{
   color: white;
 }
 
+.js-theme{
+  display: none;
+}
+.button-theme{
+  position: fixed;
+  top: 47%;
+  left: 2rem;
+}
+
+.js-theme + label {
+  width: 60px;
+  height: 30px;
+  background-color: #393e45;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  padding: 2px;
+  transition: 200ms;
+  cursor: pointer;
+}
+.js-theme + label::before {
+  content: '';
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  display: block;
+  border-radius: 50%;
+  right: unset;
+  left: 4px;
+  top: 3px;
+  transition: 200ms;
+}
+.js-theme:checked + label{
+  background-color: lightgray;
+}
+.js-theme:checked + label::before{
+  content: '';
+  left: calc(100% - 32px);
+  box-shadow: 0px 4px 4px rgb(0, 0, 0 / 10%);
+}
 
 
 @media screen and (max-width: 1400px) {
@@ -615,10 +657,7 @@ body.dark footer .paragrafo-footer{
     align-items: center;
     text-align: center;
   }
-  .emergencia-botao{
-    display: none;
 
-  }
 }
 
 @media screen and (max-width: 965px) {
@@ -628,7 +667,7 @@ body.dark footer .paragrafo-footer{
 }
 
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 840px) {
   .imagem-fundo{
     display: none;
   }
