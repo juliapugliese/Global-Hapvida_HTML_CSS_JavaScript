@@ -38,3 +38,6 @@ body a {
 body img {
     width: 20rem;
 }
+body .margem .texto{
+    margin-bottom: 5rem;
+}
