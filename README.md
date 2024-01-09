@@ -1,5 +1,14 @@
-# Global Solution - HTML
+# Global Solution - Hapvida NotreDame Intermédica
+A Global Solution é um projeto acadêmico da FIAP que introduz os alunos a um desafio onde, utilizando técnicas, ferramentas, metodologias e boas práticas trabalhadas ao longo do curso eles devem solucionar algum problema da sociedade. O objetivo é capacitá-los a pensar e desenvolver um projeto que venha trazer grandes avanços na área proposta. 
 
+A fim de auxiliar os alunos no desenvolvimento dos seus projetos, a instituição traz uma empresa parceira, nesse caso a Hapvida NotreDame Intermédica, que está inserida no campo do tema escolhido para o desafio.
+
+### Tema da vez: 
+Inovação e Tecnologia Moldando o Futuro da Saúde: Prevenção, Automação e Precisão.
+
+### Requisitos da disciplina Responsive Web Development:
+
+Crie arquivos HTML utilizando a estrutura semântica do HTML e um arquivo CSS externo com estilos apropriados para os elementos HTML, como fonte, cores de fundo, margens e espaçamento, utilize técnicas de CSS, como media queries, para criar um design responsivo e vincule o arquivo ao seu arquivo HTML. Vincule também um arquivo JavaScript externo implementando alguma forma de interatividade relacionada ao texto.
 
 # Projeto
 O projeto é focado em telemedicina e consiste em uma página web desenvolvida em HTML, CSS e JavaScript que contém as opções para que os pacientes agendem consultas, armazenem dados médicos e contatos de emergência, conversem com profissionais de saúde e recebam diagnósticos e prescrições sem sair de casa, a fim de facilitar sua rotina médica e ajudar em possíveis emergências.
