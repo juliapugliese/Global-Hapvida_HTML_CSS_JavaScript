@@ -603,6 +603,9 @@ body.theme-dark footer .paragrafo-footer{
   .main-conteudo .recursos-alternativo {
     width: 100%;
   }
+  .main-conteudo .fileira1 .recursos {
+    margin-bottom: 5rem;
+  }
 
   footer .grupo-footer {
     display: none;
